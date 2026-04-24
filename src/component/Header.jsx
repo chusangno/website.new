@@ -92,18 +92,16 @@ export default function Header() {
         {open && (
           <div className="mobile-menu">
             <nav>
-              <Link to="/" onClick={() => setOpen(false)}>
+              <Link to="/Buyhome" onClick={() => setOpen(false)}>
                 BUY A HOME
               </Link>
               <Link to="/" onClick={() => setOpen(false)}>
                 SELL A HOME
               </Link>
               <Link to="/" onClick={() => setOpen(false)}>
-                BUY LAND
+               CONTACR US
               </Link>
-              <Link to="/" onClick={() => setOpen(false)}>
-                SELL BUY
-              </Link>
+            
             </nav>
           </div>
         )}
