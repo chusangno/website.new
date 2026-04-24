@@ -2,12 +2,13 @@ import { Routes, Route, Outlet } from "react-router-dom";
 
 import Header from "./component/Header";
 import Home from "./component/Home";
-import DuaneSells from "./pages/duane-sells/duane";
 import Stats from "./component/Stats";
 import ContactForm from "./component/ContactForm";
 import Footer from "./component/Footer";
 import BuyHome from "./Buyhous/BuyHome"
-import Mechelle from "./pages/duane-sells/mechelle";
+
+import Mechelle from "./pages/duane-sells/Mechelle";
+import DuaneSells from "./pages/duane-sells/Duane";
 
 import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
