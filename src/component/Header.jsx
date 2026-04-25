@@ -18,13 +18,23 @@ export default function Header() {
             {/* CONTACT */}
             <div className="topbar-contact">
               <span>
-                <i className="ri-phone-fill"></i>
-                (770)-314-0104
+                <a
+                  href="tel:7703140104"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  <i className="ri-phone-fill"></i>
+                  (770)-314-0104
+                </a>
               </span>
 
               <span>
-                <i className="ri-mail-fill"></i>
-                info@houseduane.com
+                <a
+                  href="mailto:info@houseduane.com"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  <i className="ri-mail-fill"></i>
+                  info@houseduane.com
+                </a>
               </span>
             </div>
 
@@ -41,7 +51,7 @@ export default function Header() {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/p/DLS-TGpyBIV/?igsh=NGVuY3ZzOHQwZ205"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -99,9 +109,8 @@ export default function Header() {
                 SELL A HOME
               </Link>
               <Link to="/" onClick={() => setOpen(false)}>
-               CONTACR US
+                CONTACR US
               </Link>
-            
             </nav>
           </div>
         )}

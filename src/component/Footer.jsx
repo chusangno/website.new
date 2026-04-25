@@ -26,8 +26,16 @@ export default function Footer() {
 
               <div className="space-y-4 text-gray-200">
                 <p> 1010 Village Park Lane, Suite 100 Greensboro, GA 30642</p>
-                <p> (770)-314-0104</p>
-                <p>info@houseduane.com</p>
+                <p>
+                  <a href="tel:7703140104" className="hover:text-white">
+                    (770)-314-0104
+                  </a>
+                </p>
+                <p>
+                  <a href="mailto:info@houseduane.com" className="hover:text-white">
+                    info@houseduane.com
+                  </a>
+                </p>
               </div>
             </div>
 
